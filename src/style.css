@@ -8,6 +8,7 @@
     'Helvetica Neue', sans-serif;
 
   /* 커스텀 색상 */
-  --color-artis-black: #1c1c1e;
-  --color-artis-white: #f2f2f7;
+  --color-gnm-black: #1c1c1e;
+  --color-gnm-white: #f2f2f7;
+  --color-gnm-main: #32b38a;
 }
