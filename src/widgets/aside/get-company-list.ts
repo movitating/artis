@@ -2,7 +2,7 @@
  * 영화진흥위원회 API 키를 바탕으로 영화배급사 정보를 불러오는 함수
  * @returns
  */
-async function getCompanyList(): void {
+async function getCompanyList() {
   const API_KEY = import.meta.env.VITE_API_KOBIS_KEY;
   const response = await fetch(
     `http://kobis.or.kr/kobisopenapi/webservice/rest/company/searchCompanyList.json?key=${API_KEY}&companyPartCd=260102&itemPerPage=100`,
