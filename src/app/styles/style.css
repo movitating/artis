@@ -17,3 +17,13 @@
   --breakpoint-tablet: 48rem;
   --breakpoint-desktop: 80rem;
 }
+
+@layer utilities {
+  body {
+    @apply bg-default-black font-paperlogy text-base;
+  }
+
+  .text {
+    @apply text-default-white;
+  }
+}
