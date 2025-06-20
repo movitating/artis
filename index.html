@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko-KR">
   <head>
     <!-- default -->
@@ -12,31 +12,19 @@
 
     <!-- Favicon -->
 
-    <!-- Font -->
+    <!-- Font : Pretendard, Paperlogy -->
     <link rel="preload" href="/font/pretendardvariable.css" as="style" />
     <link rel="stylesheet" href="/font/pretendardvariable.css" />
-
     <link rel="preload" href="/font/Paperlogy.css" as="style" />
     <link rel="stylesheet" href="/font/Paperlogy.css" />
 
+    <!-- Title -->
+    <title>Default React</title>
+
     <!-- Script -->
-    <script type="module" src="./src/main.ts"></script>
+    <script type="module" src="/src/app/main.tsx"></script>
   </head>
-  <body class="bg-gnm-main text-gnm-white font-paperlogy">
-    <h1>Hello World</h1>
-    <div class="mt-4">
-      <h2>pages</h2>
-      <ul>
-        <li><a href="./src/pages/home/index.html">home</a></li>
-      </ul>
-    </div>
-    <div class="mt-4">
-      <h2>widgets</h2>
-      <ul>
-        <li><a href="./src/widgets/header/header.html">header</a></li>
-        <li><a href="./src/widgets/footer/footer.html">footer</a></li>
-        <li><a href="./src/widgets/aside/aside.html">aside</a></li>
-      </ul>
-    </div>
-  </bdy>
+  <body class="font-paperlogy text-base">
+    <div id="root"></div>
+  </body>
 </html>
